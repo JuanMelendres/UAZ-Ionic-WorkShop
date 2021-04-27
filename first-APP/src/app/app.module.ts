@@ -6,6 +6,8 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ModalesPageModule } from './modals/modales/modales.module';
+
 
 
 
@@ -16,6 +18,7 @@ import { AppComponent } from './app.component';
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule,
+    ModalesPageModule
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
