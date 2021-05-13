@@ -18,7 +18,6 @@ import { ModalesPageModule } from './modals/modales/modales.module';
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule,
-    ModalesPageModule
   ],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
