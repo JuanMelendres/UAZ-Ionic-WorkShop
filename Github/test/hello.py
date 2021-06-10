@@ -1,3 +1,4 @@
 print("Hello")
-print("Merge conflict")
+str = "Hello people"
+print(str)
 print("Let's go")
